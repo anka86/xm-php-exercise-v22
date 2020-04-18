@@ -1,6 +1,6 @@
 <?php
 
-namespace AngelosKanatsos\XM\PHP\Core; 
+namespace AngelosKanatsos\XM\PHP\core; 
 
 abstract class AbstractApiConsumer
 {

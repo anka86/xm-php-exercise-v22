@@ -1,11 +1,11 @@
 <?php
 
-namespace AngelosKanatsos\XM\PHP\Core;
+namespace AngelosKanatsos\XM\PHP\core;
 
 require_once __DIR__  . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR .  'vendor/autoload.php';
 
 use Swift_SmtpTransport, Swift_Mailer, Swift_Message, Exception;
-use AngelosKanatsos\XM\PHP\Core\JsonReporter;
+use AngelosKanatsos\XM\PHP\core\JsonReporter;
 
 class EmailSender
 {

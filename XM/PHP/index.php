@@ -1,6 +1,6 @@
 <?php
 
-use AngelosKanatsos\XM\PHP\Core\MessagesReporter;
+use AngelosKanatsos\XM\PHP\core\MessagesReporter;
 
 $incDocBase = __DIR__ . DIRECTORY_SEPARATOR . 'core' . DIRECTORY_SEPARATOR . 'include' . DIRECTORY_SEPARATOR;
 require_once $incDocBase . 'autoloader.inc.php';

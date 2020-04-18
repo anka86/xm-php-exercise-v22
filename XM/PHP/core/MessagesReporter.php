@@ -1,6 +1,6 @@
 <?php
 
-namespace AngelosKanatsos\XM\PHP\Core;
+namespace AngelosKanatsos\XM\PHP\core;
 
 /**
  * This class uses two methods in order to 
@@ -33,9 +33,6 @@ class MessagesReporter implements ReporterInterface
         foreach ($messages as $key => $message) {
             $message = !is_numeric($key) ? $key . ' => ' . $message : $message;
             echo $this->format($message);
-        }
-        if (CHECK_SESSION && session_status() === PHP_SESSION_ACTIVE) {
-            echo $this->format('You may disable the Session Cookie by setting the CHECK_SESSION constant to FALSE in config > settings.inc.php', 'warning');
-        }
+        }       
     }
 }

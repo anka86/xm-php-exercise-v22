@@ -1,6 +1,6 @@
 <?php
 
-namespace AngelosKanatsos\XM\PHP\Core;
+namespace AngelosKanatsos\XM\PHP\core;
 
 /**
  * This class is used to build the HTML datatable using the data

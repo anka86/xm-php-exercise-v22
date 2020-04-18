@@ -3,7 +3,7 @@
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'core' . DIRECTORY_SEPARATOR . 'include' . DIRECTORY_SEPARATOR . 'autoloader.inc.php';
 require_once __DIR__  . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'settings.inc.php';
 
-use AngelosKanatsos\XM\PHP\Core\{
+use AngelosKanatsos\XM\PHP\core\{
     ArrayDataTransformer,
     JsonApiConsumer,
     SearchCriteria,
@@ -28,11 +28,10 @@ if (isset($_POST['service_type'])) {
             }                      
             $jsonApiConsumer = new JsonApiConsumer(COMPANIES_URL);
             $options = [
-                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_RETURNTRANSFER => 1,
                 CURLOPT_URL => COMPANIES_URL,
                 CURLOPT_SSL_VERIFYHOST => 0,
-                CURLOPT_SSL_VERIFYPEER => 0,
-                CURLOPT_RETURNTRANSFER => 1,
+                CURLOPT_SSL_VERIFYPEER => 0,                
                 CURLOPT_VERBOSE => 0
             ];
             $jsonApiConsumer->setOptions($options);
