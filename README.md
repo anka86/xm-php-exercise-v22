@@ -5,7 +5,7 @@
 
 2. [Installation]
 
-    One you have to do, is to unzip and copy the folder "AngelosKanatsos" in the Apache Document Root. The right path is AngelosKanatsos/XM/PHP/ ... /projectfolders/projectfiles
+    The only thing that needs, is to unzip and copy the folder "AngelosKanatsos" in the Apache Document Root. The right path is AngelosKanatsos/XM/PHP/ ... /projectfolders/projectfiles
 
 3. [Resources]
 
